@@ -1,0 +1,84 @@
+html {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #191919;
+	font: 22px/1 Hack, monospace
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #191919;
+	color: #bbc4c8;
+	flex-flow: row nowrap;
+	align-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0
+}
+
+.category {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	padding: 15px
+}
+
+.bookmarks {
+	display: flex;
+	flex-direction: column;
+	border: #191c1e;
+	border-radius: 3px;
+	box-shadow: 0 4px 5px #171717;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #252525
+}
+
+.icon {
+	align-self: center;
+	justify-content: center;
+	margin: 15px
+}
+
+li {
+	font-size: 16px;
+	list-style-type: none;
+	padding: 5px
+}
+
+a:link {
+	text-decoration: none;
+	color: #8f9191
+}
+
+a:visited {
+	color: #8f9191
+}
+
+a:hover {
+	color: #7e2fef
+}
+
+.code a:hover {
+	color: #00cf35
+}
+
+.school a:hover {
+	color: #ff8a00
+}
+
+.misc a:hover {
+	color: #00b8ff
+}
