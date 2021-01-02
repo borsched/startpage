@@ -13,7 +13,7 @@ html {
 }
 
 body {
-	display: flex;
+	display: grid;
 	flex-direction: column;
 	justify-content: center;
 	background: #191919;
@@ -25,6 +25,17 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0
+}
+
+.head {
+	text-align: center;
+	align-self: center;
+	font-size: 24px;
+	padding: 10px
+}
+
+.body {
+	display: flex;
 }
 
 .category {
